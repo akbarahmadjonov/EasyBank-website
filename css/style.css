@@ -1,0 +1,276 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/** Aligning header to center **/
+.container .clearFix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/** Making center navs and logo **/
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    /** Aligning to center (Container) **/
+}
+
+
+header {
+    margin: 10px 0;
+}
+
+.menu-div ul li {
+    display: inline;
+/** Making list inline **/
+}
+
+.menu-div ul li a {
+    text-decoration: none;
+    color: #9597A5;
+    font-size: 14px;
+}
+
+.menu-div ul li a {
+    margin: 10px;
+}
+
+.menu-div ul li a:hover {
+    /* opacity: 1; */
+    font-weight: 700;
+    color: #1F1534;
+    border-bottom: 1px solid #1F1534;
+    margin-bottom: 20px;
+}
+
+/** Header section end **/
+
+/** Generation section /*/
+.wrapper-generation {
+    background: #F2F2F2;
+    background-image: url(../images/phones-back.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: 100% -75px;
+}
+
+.generation-contents {
+    padding: 150px 0;
+    width: 37%;
+}
+
+/** Generation **/
+.choosingBank {
+    background: #F4F5F7;
+}
+
+.choosingBank .bankContents {
+    padding: 150px 0;
+    width: 48%;
+}
+
+.wrapperFeatures .bank-features-content {
+    padding-top: 70px;
+}
+
+.wrapperFeatures {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+}
+
+/* .wrapperFeatures .allHeaderThree {
+    padding-bottom: 28px;
+}
+
+.wrapperFeatures img {
+    padding-bottom: 28px;
+} */
+
+.wrapperFeatures .bank-features-content p {
+    color: #9597A5;
+    line-height: 26px;
+}
+
+.wrapperFeatures .bank-features-content {
+    margin-right: 20px;
+}
+/** Ended bank features **/
+
+/** Articles **/
+.articleHead {
+    padding: 150px 0;
+    background: #F2F2F2;
+    /** Aligning to Left   **/
+}
+
+.articleHead h1 {
+    padding-bottom: 28px;
+}
+
+.articleHead .wrapper-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleHead .wrapper-box small {
+    color:  #9597A5;
+    letter-spacing: -0.15625px;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.articleHead .wrapper-box small, h3, p {
+    padding-top: 12px;
+}
+
+.articleHead .boxes {
+    background: #ffffff;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+.articleHead .boxes:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.articleHead .boxes .box-contents {
+    padding: 15px;
+}
+
+.articleHead .boxes img {
+    width: 100%;
+}
+/** Ending of article **/
+
+.footer-wrapper {
+    padding: 45px 0;
+    background: #2D314D;
+}
+
+.content-change {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-change .logo-social-network .logo-footer {
+    display: block;
+}
+
+.content-change .logo-social-network  img {
+    margin-right: 10px;
+}
+
+.footer-buttons button {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.content-change .lists-1 ul li {
+    list-style: none;
+}
+
+.content-change .lists-1 ul li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: -0.234375px;;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.content-change .lists-1 ul li a:hover {
+    /* border-radius: 1px; */
+    border-bottom-color: #1ff257;
+    border-bottom-style: solid;
+}
+
+.content-change .logo-footer {
+    margin-bottom: 32px;
+}
+
+.content-change .footer-buttons small {
+    color: #FFFFFF;
+    opacity: 0.7;
+    /* letter-spacing: 1px; */
+    font-size: 14px;
+    text-align: center;
+}
+
+/****** 
+The same values for every properties 
+******/
+
+.allHeaderThree {
+    color: #2D314D;
+    letter-spacing: -0.428571px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.allTitles {
+    color:  #2D314D;
+    letter-spacing: -0.714286px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+
+.container .allParagraph {
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 24px;
+    /** All p in this document(container) **/
+}
+
+.container .allParagraph-2 {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 24px;
+    /** All p in this document(container) **/
+}
+
+
+.container .allButton {
+    width: 170px;
+    height: 54px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    border-radius: 29px;
+    color: #fff;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    /** The same buttons/Classes **/
+}
+
+.container .allButton:hover {
+    background: linear-gradient(135deg, #1ff257 0%, #007390 99.58%);
+}
+
+.container .allHeaderOne {
+    font-weight: 100;
+    font-size: 56px;
+    font-style: normal;
+    /* line-height: 64px; */
+    letter-spacing: 2px;
+    color: #2D314D;
+    margin-bottom: 24px;
+    /** All H1 in this document(container) **/
+}
